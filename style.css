@@ -165,12 +165,14 @@ a {
 
 /*Styling About Page*/
 /*Styling Education Section*/
-.education-section, .experience-section, .achievements-section, .language-skill-section {
+.education-section, .experience-section, .achievements-section, .language-skill-section, .skills-section {
     padding: 100px;
     min-height: 100vh;
+    /*
     background-color:antiquewhite;
     border-color: black;
     border-style: solid;
+    */
 }
 
 .education-section .section-content{
@@ -209,7 +211,7 @@ a {
     padding: 0 300px;
 }
 
-.achievements-section .section-content .achievements-wrapper,  .language-skill-section .section-content .language-skill-wrapper{
+.achievements-section .section-content .achievements-wrapper,  .language-skill-section .section-content .language-skill-wrapper, .skills-section .section-content{
     margin-top: 70px;
     display: flex;
     gap: 20px;
@@ -218,4 +220,11 @@ a {
 /*Language Skill Section*/
 .language-skill-section .section-content {
     padding: 0 400px;
+}
+
+/*Skills Section*/
+.skills-section .section-content {
+    padding: 0 250px;
+    gap: 60px;
+    text-align: center;
 }
