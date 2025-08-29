@@ -94,13 +94,14 @@ a {
     border-style: solid; 
 }
 
+/*Styling Homepage*/
 /*Styling Gallery*/
-.gallery-section {
+.gallery-section, .education-section {
     min-height: 100vh;
     /*background-color: #fff9ee;*/
 }
 
-.gallery-section .section-content {
+.gallery-section .section-content  {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -145,4 +146,19 @@ a {
     display: flex;
     justify-content: center;
     gap: 2px;
+}
+
+/*Styling About Page*/
+/*Styling Education Section*/
+.education-section {
+    margin-top: 100px;
+    min-height: 100vh;
+}
+
+.education-section .section-content  {
+    min-height: 100vh;
+    color: #0c2f95;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 70px;
 }
