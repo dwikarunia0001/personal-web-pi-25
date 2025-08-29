@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black;
 }
 
 ul {
@@ -11,4 +12,18 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+/*Styling Navbar*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #e7e7e7;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 25px;
 }
