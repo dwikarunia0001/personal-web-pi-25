@@ -31,6 +31,21 @@ a {
     background-color:#f476a5;
 }
 
+.separator {
+    content: "";
+    height: 80px;
+    width: 5px;
+    background-color: #f476a5;
+}
+
+.dot-timeline {
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 7px;
+    background-color: #f476a5;
+}
+
 /*Styling Navbar*/
 .navbar {
     display: flex;
@@ -150,15 +165,36 @@ a {
 
 /*Styling About Page*/
 /*Styling Education Section*/
-.education-section {
-    margin-top: 100px;
+.education-section, .experience-section {
+    padding: 100px;
     min-height: 100vh;
+    background-color:antiquewhite;
+    border-color: black;
+    border-style: solid;
 }
 
-.education-section .section-content  {
-    min-height: 100vh;
+.education-section .section-content{
     color: #0c2f95;
-    text-align: center;
     line-height: 1.5;
     margin-top: 70px;
+    text-align: center;
+}
+
+.experience-section .section-content {
+    margin-top: 70px;
+    margin-left: 450px;
+}
+
+.experience-section .section-content .timeline-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.timeline-wrapper .timeline-line .dot-timeline {
+    margin-bottom: -5px;
+    margin-left: -5px;
+}
+
+.timeline-wrapper .timeline-line .timeline-description {
+    text-align: start;
 }
