@@ -165,7 +165,7 @@ a {
 
 /*Styling About Page*/
 /*Styling Education Section*/
-.education-section, .experience-section {
+.education-section, .experience-section, .achievements-section {
     padding: 100px;
     min-height: 100vh;
     background-color:antiquewhite;
@@ -180,6 +180,7 @@ a {
     text-align: center;
 }
 
+/*Experience Section*/
 .experience-section .section-content {
     margin-top: 70px;
     margin-left: 450px;
@@ -197,4 +198,19 @@ a {
 
 .timeline-wrapper .timeline-line .timeline-description {
     text-align: start;
+}
+
+/*Achievements Section*/
+
+.achievements-section .section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 300px;
+}
+
+.achievements-section .section-content .achievements-wrapper {
+    margin-top: 70px;
+    display: flex;
+    gap: 20px;
 }
