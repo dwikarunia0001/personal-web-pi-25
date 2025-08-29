@@ -131,3 +131,18 @@ a {
     border-radius: 50px;
     margin-bottom: 10px;
 }
+
+/*Styling footer*/
+.footer-section {
+    margin: 20px 20px;
+    padding: 20px 0;
+    background-color:#f476a5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footer-section .copyright-text {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
