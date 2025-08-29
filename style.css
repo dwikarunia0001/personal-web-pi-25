@@ -14,13 +14,30 @@ a {
     text-decoration: none;
 }
 
+.section-title {
+    text-align: center;
+    
+    text-transform: uppercase;
+    /*color: #0c2f95;*/
+}
+
+.section-title::after {
+    content: "";
+    width: 80px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 5px;
+    background-color:#f476a5;
+}
+
 /*Styling Navbar*/
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #e7e7e7;
+    /*background-color: #e7e7e7;*/
 }
 
 .navbar .nav-menu {
@@ -31,7 +48,7 @@ a {
 /*Styling Hero Section*/
 .hero-section {
     min-height: 100vh;
-    background-color: #fff9ee;
+    /*background-color: #fff9ee;*/
 }
 
 .hero-section .section-content {
@@ -80,7 +97,7 @@ a {
 /*Styling Gallery*/
 .gallery-section {
     min-height: 100vh;
-    background-color: #fff9ee;
+    /*background-color: #fff9ee;*/
 }
 
 .gallery-section .section-content {
