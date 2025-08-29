@@ -165,7 +165,7 @@ a {
 
 /*Styling About Page*/
 /*Styling Education Section*/
-.education-section, .experience-section, .achievements-section {
+.education-section, .experience-section, .achievements-section, .language-skill-section {
     padding: 100px;
     min-height: 100vh;
     background-color:antiquewhite;
@@ -202,15 +202,20 @@ a {
 
 /*Achievements Section*/
 
-.achievements-section .section-content {
+.achievements-section .section-content, .language-skill-section .section-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 300px;
 }
 
-.achievements-section .section-content .achievements-wrapper {
+.achievements-section .section-content .achievements-wrapper,  .language-skill-section .section-content .language-skill-wrapper{
     margin-top: 70px;
     display: flex;
     gap: 20px;
+}
+
+/*Achievements Section*/
+.language-skill-section .section-content {
+    padding: 0 400px;
 }
