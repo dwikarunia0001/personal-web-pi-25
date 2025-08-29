@@ -77,3 +77,40 @@ a {
     border-style: solid; 
 }
 
+/*Styling Gallery*/
+.gallery-section {
+    min-height: 100vh;
+    background-color: #fff9ee;
+}
+
+.gallery-section .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    color: #0c2f95;
+    gap: 50px;
+}
+
+.gallery-section .section-content .gallery-list {
+    display: flex;
+    justify-content: space-around;
+    color: #0c2f95;
+}
+
+.gallery-section .gallery-item {
+    display: flex;
+    padding: 35px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.gallery-section .gallery-item .gallery-image {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
