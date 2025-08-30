@@ -50,6 +50,21 @@ a {
     color: white;
 }
 
+/*Styling footer*/
+.footer-section {
+
+    padding: 30px 0;
+    background-color:#f476a5;
+
+    text-align: center;
+}
+
+.footer-section .copyright-text {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
 /*Styling Navbar*/
 .navbar {
     display: flex;
@@ -151,21 +166,6 @@ a {
     object-fit: cover;
     border-radius: 50px;
     margin-bottom: 10px;
-}
-
-/*Styling footer*/
-.footer-section {
-    margin: 20px 20px;
-    padding: 20px 0;
-    background-color:#f476a5;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.footer-section .copyright-text {
-    display: flex;
-    justify-content: center;
-    gap: 2px;
 }
 
 /*Styling About Page*/
