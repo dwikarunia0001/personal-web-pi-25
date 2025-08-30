@@ -52,10 +52,8 @@ a {
 
 /*Styling footer*/
 .footer-section {
-
     padding: 30px 0;
     background-color:#f476a5;
-
     text-align: center;
 }
 
@@ -80,6 +78,7 @@ a {
     gap: 30px;
 }
 
+/*Styling Homepage*/
 /*Styling Hero Section*/
 .hero-section {
     min-height: 100vh;
@@ -129,7 +128,6 @@ a {
     border-style: solid; 
 }
 
-/*Styling Homepage*/
 /*Styling Gallery*/
 .gallery-section, .education-section {
     min-height: 100vh;
