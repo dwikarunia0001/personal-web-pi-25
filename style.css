@@ -46,6 +46,10 @@ a {
     background-color: #f476a5;
 }
 
+.text-white {
+    color: white;
+}
+
 /*Styling Navbar*/
 .navbar {
     display: flex;
@@ -53,6 +57,7 @@ a {
     justify-content: space-between;
     padding: 20px 50px;
     background-color: #f476a5;
+    
 }
 
 .navbar .nav-menu {
@@ -220,7 +225,7 @@ a {
 /*Language Skill Section*/
 .language-skill-section .section-content {
     padding: 0 400px;
-    min-height: 100vh;
+    
 }
 
 /*Skills Section*/
